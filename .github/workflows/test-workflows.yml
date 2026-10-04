@@ -9,7 +9,7 @@ on:
 jobs:
   run-test-workflows:
 
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted", "Linux", "X64"]
 
     strategy:
       matrix:
